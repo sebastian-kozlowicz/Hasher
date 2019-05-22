@@ -1,0 +1,15 @@
+C:\Users\User-PC\Documents\Visual Studio 2017\Projects\Hasher\Hasher\obj\Debug\Hasher.csprojAssemblyReference.cache
+C:\Users\User-PC\Documents\Visual Studio 2017\Projects\Hasher\Hasher\obj\Debug\MainWindow.g.cs
+C:\Users\User-PC\Documents\Visual Studio 2017\Projects\Hasher\Hasher\obj\Debug\App.g.cs
+C:\Users\User-PC\Documents\Visual Studio 2017\Projects\Hasher\Hasher\obj\Debug\Hasher_MarkupCompile.cache
+C:\Users\User-PC\Documents\Visual Studio 2017\Projects\Hasher\Hasher\obj\Debug\Hasher_MarkupCompile.lref
+C:\Users\User-PC\Documents\Visual Studio 2017\Projects\Hasher\Hasher\bin\Debug\Hasher.exe.config
+C:\Users\User-PC\Documents\Visual Studio 2017\Projects\Hasher\Hasher\bin\Debug\Hasher.exe
+C:\Users\User-PC\Documents\Visual Studio 2017\Projects\Hasher\Hasher\bin\Debug\Hasher.pdb
+C:\Users\User-PC\Documents\Visual Studio 2017\Projects\Hasher\Hasher\obj\Debug\MainWindow.baml
+C:\Users\User-PC\Documents\Visual Studio 2017\Projects\Hasher\Hasher\obj\Debug\Hasher.g.resources
+C:\Users\User-PC\Documents\Visual Studio 2017\Projects\Hasher\Hasher\obj\Debug\Hasher.Properties.Resources.resources
+C:\Users\User-PC\Documents\Visual Studio 2017\Projects\Hasher\Hasher\obj\Debug\Hasher.csproj.GenerateResource.cache
+C:\Users\User-PC\Documents\Visual Studio 2017\Projects\Hasher\Hasher\obj\Debug\Hasher.csproj.CoreCompileInputs.cache
+C:\Users\User-PC\Documents\Visual Studio 2017\Projects\Hasher\Hasher\obj\Debug\Hasher.exe
+C:\Users\User-PC\Documents\Visual Studio 2017\Projects\Hasher\Hasher\obj\Debug\Hasher.pdb

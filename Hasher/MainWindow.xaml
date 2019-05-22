@@ -1,0 +1,54 @@
+﻿<Window x:Class="Hasher.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Hasher"
+        mc:Ignorable="d"
+        Title="Hasher" Height="700" Width="400">
+    <Border Padding="10">
+        <Border.Background>
+            <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                <GradientStop Color="#0087ef" Offset="0"/>
+                <GradientStop Color="#FFFFFFFF" Offset="1.5"/>
+            </LinearGradientBrush>
+        </Border.Background>
+        
+        <StackPanel>
+            <!-- Raw input text TextBox -->
+            <TextBlock Text="Text to encode" FontWeight="Bold"/>
+            <TextBox x:Name="rawText" TextChanged="Encode" Height="50" Margin="0 10"/>
+
+            <!-- Buttons -->
+            <Grid Height="30">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Button x:Name="SaveButton" Click="SaveButton_Click" Grid.Column="0" Content="Save" FontWeight="Bold" Margin="50 0" BorderBrush="#00ad02" BorderThickness="1.5" Background="White"/>
+                <Button x:Name="ClearButton" Click="ClearButton_Click" Grid.Column="1" Content="Clear" FontWeight="Bold" Margin="50 0" BorderBrush="#ffa807" BorderThickness="1.5" Background="White"/>
+            </Grid>
+
+            <!-- Hash output TextBoxes -->
+            <TextBlock Text="MD5 Hash" FontWeight="Bold" Margin="0 10"/>
+            <TextBox x:Name="MD5HashText" Height="50" IsReadOnly="True"/>
+
+            <TextBlock Text="SHA-1 Hash" FontWeight="Bold" Margin="0 10"/>
+            <TextBox x:Name="SHA1HashText" Height="50" IsReadOnly="True"/>
+
+            <TextBlock Text="SHA-256 Hash" FontWeight="Bold" Margin="0 10" />
+            <TextBox x:Name="SHA256HashText" Height="50" TextWrapping="Wrap" IsReadOnly="True"/>
+
+            <TextBlock Text="SHA-384 Hash" FontWeight="Bold" Margin="0 10" />
+            <TextBox x:Name="SHA384HashText" Height="50" TextWrapping="Wrap" IsReadOnly="True"/>
+
+            <TextBlock Text="SHA-512 Hash" FontWeight="Bold" Margin="0 10" />
+            <TextBox x:Name="SHA512HashText" Height="50" TextWrapping="Wrap" IsReadOnly="True"/>
+
+            <TextBlock Text="RIPEMD160 Hash" FontWeight="Bold" Margin="0 10" />
+            <TextBox x:Name="RIPEMD160HashText" Height="50" TextWrapping="Wrap" IsReadOnly="True"/>
+
+        </StackPanel>
+    </Border>
+</Window>
